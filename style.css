@@ -21,6 +21,7 @@ section {
 }
 
 header {
+    color: white;
     grid-row: span 1;
     grid-column: span 1;
 }
@@ -70,7 +71,7 @@ img {
         grid-column: span 4;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 5px;
+        grid-gap:5px;
         background-color: #666666;
     }
     header {
@@ -93,7 +94,7 @@ img {
     }
 img {
     height: 90%;
-    border: none;
+    border:none;
 }
 
     .five, .six, .seven, .eight {
